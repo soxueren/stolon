@@ -1,4 +1,4 @@
-FROM postgres:${PGVERSION}
+FROM mdillon/postgis:${PGVERSION}
 
 RUN useradd -ms /bin/bash stolon
 
